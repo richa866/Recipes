@@ -1,0 +1,12 @@
+.recipeCard-header{
+    display: flex;
+    justify-content: center;
+
+}
+.recipeCard-header h3{
+    font-size: 40px;
+    font-family: "Playwrite AU SA", cursive;
+font-optical-sizing: auto;
+  font-weight: 400;
+  font-style:italic;
+}

@@ -1,0 +1,58 @@
+
+.repcard{
+    width: 280px;
+    background-color: transparent;
+    border: 3px solid #45260a51;
+    /* padding: 1em; */
+    border-radius: 6px;
+  }
+  
+  .card-image img {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 280px;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    color: #cf711f;
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .description {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .description:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }

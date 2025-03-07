@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden; 
+    border-radius: 50%;
+    z-index: 1;
+} 
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.143); /* Semi-transparent effect */
+    border-radius: 50%;
+    z-index: 0; /* Keep it behind the text */
+}

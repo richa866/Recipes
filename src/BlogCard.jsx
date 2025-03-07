@@ -6,7 +6,7 @@ export default function BlogCard({title,linkP,name,linkF}) {
         <div className="blog-container">
       <div className="post-content">
         <h3>{title}</h3>
-        <img src={linkF} alt="Author" />
+        <img src={linkF} alt="food" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit laborum debitis tenetur sapiente explicabo?
           Dolorem velit 

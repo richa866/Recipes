@@ -12,7 +12,7 @@ Create a blog
   </div>
 </button>
     </div>
-        <div class="blog-section">
+        <div className="blog-section">
  <BlogCard title="Why is sugarcane sweet?" linkP="/profile1.png" name="Billa Sahani" linkF="/biryani.png"/>
  <BlogCard title="Why is pav bhaji teekha?" linkP="/profile2.png" name="Billi Sahani" linkF="/indian.png"/>
  <BlogCard title="Why is food tasty ?" linkP="/profile3.png" name="Billomal Sahani" linkF="/cake.png"/>

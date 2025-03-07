@@ -1,58 +1,121 @@
 
-.repcard{
-    width: 280px;
-    background-color: transparent;
-    border: 3px solid #45260a51;
-    /* padding: 1em; */
-    border-radius: 6px;
+.repcard {
+  width: 280px;
+  background-color: transparent;
+  border: 3px solid #45260a51;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-image img {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 280px;
+  border-radius: 6px 6px 0 0;
+  object-fit: cover;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  color: #cf711f;
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+  color: #a95018;
+}
+
+.description {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+  font-size: 14px;
+}
+
+.description:hover {
+  cursor: pointer;
+}
+
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+  color: #cf711f;
+}
+
+
+@media (max-width: 1024px) {
+  .repcard {
+    width: 250px;
   }
-  
+
   .card-image img {
-    background-color: rgb(236, 236, 236);
-    width: 100%;
-    height: 280px;
-    border-radius: 6px 6px 0 0;
+    height: 250px;
   }
-  
-  .card-image:hover {
-    transform: scale(0.98);
-  }
-  
+
   .category {
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: 600;
-    color: #cf711f;
-    padding: 10px 7px 0;
+    font-size: 15px;
   }
-  
-  .category:hover {
-    cursor: pointer;
-  }
-  
+
   .description {
-    font-weight: 600;
-    color: rgb(88, 87, 87);
-    padding: 7px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .repcard {
+    width: 220px;
+  }
+
+  .card-image img {
+    height: 220px;
+  }
+
+  .category {
     font-size: 14px;
   }
-  
-  .description:hover {
-    cursor: pointer;
+
+  .description {
+    font-size: 12px;
   }
-  
-  .author {
-    color: gray;
-    font-weight: 400;
+}
+
+@media (max-width: 480px) {
+  .repcard {
+    width: 90%;
+  }
+
+  .card-image img {
+    height: 200px;
+  }
+
+  .category {
+    font-size: 13px;
+  }
+
+  .description {
     font-size: 11px;
-    padding-top: 20px;
   }
-  
-  .name {
-    font-size: 15px;
-    font-weight: 600;
+
+  .author {
+    font-size: 10px;
   }
-  
-  .name:hover {
-    cursor: pointer;
-  }
+}

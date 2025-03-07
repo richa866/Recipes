@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-/* Blog Section */
+
 .blog-section {
   display: flex;
   flex-direction: row; 
@@ -25,7 +25,7 @@
   padding-top: 10px;
 }
 
-/* Blog Header */
+
 .blog-header {
   display: flex;
   flex-direction: row;
@@ -47,7 +47,7 @@
   margin-left: 300px;
 }
 
-/* Create Button */
+
 .create {
   background: #ee862b;
   color: white;
@@ -66,7 +66,7 @@
   height: 2.8em;
   padding-right: 3em;
   transition: all 0.3s;
-  min-width: 120px; /* Prevents shrinking */
+  min-width: 120px; 
 }
 
 .iconButton {

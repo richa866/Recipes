@@ -1,4 +1,4 @@
-/* General Styles */
+
 .Cuisine-wrapper {
   background-color: white;
   width: 100vw;
@@ -6,7 +6,7 @@
   overflow-x: hidden;
 }
 
-/* Cuisine Header */
+
 .cuisine-header {
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@
   margin-left: 0;
 }
 
-/* Cuisine Cards */
+
 .cuisine-cards {
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@
   padding-top: 1.8rem;
 }
 
-/* See More Button */
+
 .seeMore {
   display: flex;
   justify-content: center;
@@ -46,7 +46,7 @@
   height: 50px;
 }
 
-/* See More Button Styles */
+
 .seemore {
   background: #ee862b;
   color: white;
@@ -68,7 +68,7 @@
   padding-right: 3em;
 }
 
-/* Icon Button */
+
 .iconButton {
   margin-left: 1em;
   position: absolute;
@@ -97,7 +97,7 @@
   box-shadow: 0.05em 0.05em #5566c2;
 }
 
-/* 🔹 Responsive Adjustments */
+
 @media (max-width: 1024px) {
   .cuisine-header h3 {
     font-size: 2rem;

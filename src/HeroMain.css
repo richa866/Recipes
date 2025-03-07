@@ -1,4 +1,4 @@
-/* Wrapper Section */
+
 .wrapper {
   height: 80vh;
   width: 100vw;
@@ -14,7 +14,6 @@
   position: relative;
 }
 
-/* Container */
 .container {
   position: absolute;
   left: 50%;
@@ -22,7 +21,7 @@
   transform: translate(-50%, -50%);
 }
 
-/* Quote Section */
+
 .quoteCont {
   display: flex;
   flex-direction: column;
@@ -44,7 +43,6 @@
   margin-bottom: 1rem;
 }
 
-/* Search Box */
 .search {
   display: flex;
   align-items: center;
@@ -87,7 +85,7 @@
   color: black;
 }
 
-/* 🔹 Responsive Adjustments */
+
 @media (max-width: 1024px) {
   .quote {
     font-size: 3rem;

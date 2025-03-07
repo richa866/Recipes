@@ -1,31 +1,31 @@
-/* Blog Post Container */
+
 .blog-post {
   width: 100%;
   max-width: 300px;
-  height: auto; /* Adjust height dynamically */
+  height: auto; 
   background-color: #fdf2e9;
-  margin-top: 0; /* Removed unnecessary upper space */
+  margin-top: 0; 
   padding: 1rem;
 }
 
-/* Blog Content */
+
 .post-content img {
   width: 100%;
   max-width: 200px;
   height: 200px;
 }
 
-/* Blog Container */
+
 .blog-container {
   width: 100%;
   max-width: 400px;
-  height: auto; /* Adjust height dynamically */
+  height: auto; 
   background-color: #fdf2e9;
-  padding-top: 0; /* Removed unnecessary upper space */
-  margin-top: 0; /* Ensuring no extra space */
+  padding-top: 0;
+  margin-top: 0;
 }
 
-/* Post Metadata */
+
 .post-meta {
   display: flex;
   align-items: center;
@@ -34,21 +34,21 @@
   color: #666;
 }
 
-/* Blog Heading */
+
 .post-content h3 {
   font-size: 22px;
   padding-bottom: 10px;
   color: #333;
 }
 
-/* Blog Paragraph */
+
 .post-content p {
   font-size: 14px;
   color: #666;
   margin-top: 10px;
 }
 
-/* Author Section */
+
 .author-info {
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@
   margin-top: 10px;
 }
 
-/* Author Image */
+
 .author-info img {
   width: 40px;
   height: 40px;
@@ -67,7 +67,7 @@
   margin-right: 10px;
 }
 
-/* Author Details */
+
 .author-details {
   display: flex;
   align-items: center;
@@ -86,7 +86,6 @@
   color: #333;
 }
 
-/* 🔹 Responsive Adjustments */
 @media (max-width: 1024px) {
   .blog-post {
     max-width: 250px;

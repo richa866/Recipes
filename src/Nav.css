@@ -1,4 +1,4 @@
-/* Navigation Bar */
+
 .nav {
   display: flex;
   align-items: center;
@@ -9,10 +9,10 @@
   padding: 1rem 2rem;
   background-color: #fae5d3;
   z-index: 9999;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Prevents content shadow overlap */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Site Name */
+
 .nameCont {
   margin-left: 20px;
 }
@@ -24,7 +24,7 @@
   font-style: normal;
 }
 
-/* Navigation Options */
+
 .navOpt {
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@
   color: #eb984e;
 }
 
-/* Button Styling */
+
 .Log {
   transition: all 0.2s ease-in;
   position: relative;
@@ -110,7 +110,7 @@
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
-/* 🔹 Responsive Adjustments */
+
 @media (max-width: 1024px) {
   .nav {
     padding: 1rem;

@@ -14,7 +14,7 @@ export default  function Nav(){
                 <p>Cuisines</p>
                 <p>Receipies</p>
                 <p>Blog</p>
-                 <button className="Log">Log in</button>
+                <button className="Log">Log in</button>
         </div>
         </div>
         </>
